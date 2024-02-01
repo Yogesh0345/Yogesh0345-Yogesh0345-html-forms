@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(5, 188, 249);
+    margin: 0;
+}
+.main{
+    
+}
+.name{
+    display: flex;
+    background-color: rgb(239, 234, 234);
+    height: 100px;
+    align-items: center;
+}
+.name img{
+    height: 200px;
+    max-height: 200px;
+    width: 120px;
+    max-width: 100%;
+}
+.name h1{
+    position: absolute;
+    margin-left: 48%;
+    transform: translateX(-40%);
+    background: linear-gradient(to right, #d2593b, #3e85b8);
+    color: transparent;
+    background-clip: text;
+    font-size: 2em;
+}
+.name button{
+    position: absolute;
+    margin-left: 90%;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to right, #d2593b, #3e85b8);
+}
+.name button img{
+    padding-top: 1.5px;
+    height: 30px;
+    width: auto;
+}
+.ng nav{
+    display: flex;
+}
+.ng{
+    background-color: rgb(242, 177, 11);
+}
+.ng ul{
+    margin-left: 48%;
+    transform: translateX(-48%);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.a{
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+}
+.a:hover{
+    color: rgb(81, 152, 240); 
+}
